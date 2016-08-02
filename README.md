@@ -5,7 +5,6 @@
 - hosts: localhost
   roles:
     - role: test_role
-    
 ```
 
 Expected results:

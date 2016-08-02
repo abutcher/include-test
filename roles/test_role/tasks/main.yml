@@ -1,0 +1,7 @@
+---
+- name: pre task
+  command: echo pre task
+- name: include task
+  include: included.yml
+- name: post task
+  command: echo post task

@@ -1,0 +1,3 @@
+---
+- name: included task
+  command: echo included task

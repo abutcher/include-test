@@ -1,0 +1,12 @@
+---
+- name: nested pre
+  command: echo nested pre
+
+- include: extra_nested1.yml
+  static: no
+
+- include: extra_nested2.yml
+  static: no
+
+- name: nested post
+  command: echo nested post

@@ -3,5 +3,7 @@
   command: echo pre task
 - name: include task
   include: included.yml
+- name: nested included task
+  include: nested/main.yml
 - name: post task
   command: echo post task

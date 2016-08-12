@@ -1,0 +1,6 @@
+---
+- include: extra_nested1.yml
+  static: no
+
+- include: extra_nested2.yml
+  static: no

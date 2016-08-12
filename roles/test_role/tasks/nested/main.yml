@@ -2,10 +2,7 @@
 - name: nested pre
   command: echo nested pre
 
-- include: extra_nested1.yml
-  static: no
-
-- include: extra_nested2.yml
+- include: extra_nested/extra_nested.yml
   static: no
 
 - name: nested post
